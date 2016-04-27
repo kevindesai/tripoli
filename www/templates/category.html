@@ -1,0 +1,15 @@
+<ion-view view-title="Category">
+	<ion-nav-buttons side="right">
+    	<button class="drop-btn" ng-click="reset()"></button>
+        <button class="send-btn" ng-click="createFixed()"></button>
+    </ion-nav-buttons>
+  <ion-content>
+      <ion-list class="cat-list" ng-repeat="category in categoryData">
+	   <ion-item class="cat-list-data">
+       		<ion-checkbox ng-model="filter.Tourish" ng-checked="filter.cat">
+        	<i class="cat-icn location-icn"></i> {{category.cat_name}}</ion-checkbox>
+       </ion-item>
+	   
+	</ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,52 @@
+.bar.bar-stable { background:#339964; }
+.bar-header { border:0; }
+.list { padding-top:0; }
+.bar.bar-stable .title { color:#fff; text-align:left; }
+.left-nav { background:url(../img/nav-icn.png) no-repeat; width:26px; height:21px; background-color:none; border:0; margin-left: 11px;
+    margin-top: 6px; }
+
+/*---Category CSS--*/	
+.cat-list { margin-left:15px; margin-right:15px;  }
+.cat-list .list { margin-top:-20px; }
+.cat-list .item { border:0; margin:0; }
+.cat-list .cat-list-data.item { padding-top:0; padding-bottom:0; }
+.cat-list .cat-list-data span { font-size:19px; }
+.cat-list .item-checkbox { border-bottom:1px solid #ddd;   }
+.cat-list .item-checkbox .checkbox { left:inherit; right:0; }
+.cat-list .checkbox input:checked::before, .cat-list .checkbox input:checked + .checkbox-icon::before {  background: #339964; border-color: #339964; }
+
+.cat-icn { background:url(../img/cat-sprite.png) no-repeat; height: 38px; left: 0; position: absolute;  top: 7px; width: 40px; border-right:1px solid #ddd;  }
+
+.dining-icn { background-position: 0 -72px;   }
+.petrol-icn { background-position: 0 -141px;  }
+.atm-icn 	{ background-position: 0 -210px;  }
+.bus-icn 	{ background-position: 0 -278px;  }
+.hos-icn 	{ background-position: 0 -350px;  }
+.wife-icn	{ background-position: 0 -420px;  }
+.public-icn { background-position: 0 -494px;  }
+
+
+.cat-list .platform-android .checkbox-platform input::before, 
+.platform-android .checkbox-platform .checkbox-icon::before, 
+.checkbox-square input::before, .checkbox-square .checkbox-icon::before { border-radius:50%; }
+
+.send-btn { background:url(../img/send-icn.png) no-repeat center center; width:33px; height:33px; background-color:none; border:0; display:block;  }
+.drop-btn { background:url(../img/drop-icn.png) no-repeat center center; width:33px; height:33px; background-color:none; border:0; display:block;  }
+.bar-stable .button.button-clear { color:#fff; }
+
+/*---Cate Detials Page--*/
+.cat-details { -webkit-flex-wrap: wrap; flex-wrap: wrap; padding:0; }
+.cat-details img { width:100%; }
+.cat-details .col-50 { padding-left:0; padding-bottom:0; position:relative; }
+.cat-details .col-50:nth-child(1n) { padding-right:2px;  }
+.cat-details .col-50:nth-child(2n) { padding-right:0; padding-left:2px; }
+
+.cat-title { background:rgba(0,0,0,0.6); height:36px; position:absolute; left:0; width:99%; bottom:4px; }
+.cat-title h4 { color:#fff; float:left; padding:0; margin:0; font-weight:normal; font-size:13px; padding-left:15px; padding-top:10px;   }
+.cat-title h5 { float:right;  color:#fff;  padding:0; margin:0; font-weight:normal; font-size:13px; padding-right:10px; background:url(../img/km-icn.png) no-repeat; padding-top:18px; background-position: 8px 6px; }
+
+.bar.bar-stable .title {  font-size: 17px; }
+#map {
+    width: 100%;
+    height: 100%;
+}
